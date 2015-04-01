@@ -1,7 +1,7 @@
 typescript-osx-primer
 ====================
 
-a boilerplate repo to get up and running with TypeScript/Browserify on OSX
+a boilerplate repo to get up and running with TypeScript/Browserify on OS X
 
 ### Usage:
 ```bash
@@ -18,8 +18,15 @@ It may complain it can't find a gulp reference.. in that case install it globall
 npm install -g gulp
 ```
 
+## How can I download the code?
+You can clone this repo using git. From you command line, enter the following:
+
+```bash
+git clone https://github.com/mjw56/typescript-osx-primer.git
+```
+
 ## Who is this for?
-I made this for a friend to get up and running with TypeScript on OSX quickly.
+I made this for a friend to get up and running with TypeScript on OS X quickly.
 
 ## So how does this work?
 It's using [gulp](http://gulpjs.com/) as the task runner. We're using a special tool for node
