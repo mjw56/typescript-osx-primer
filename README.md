@@ -37,5 +37,13 @@ In our case, we're using tsify which transpiles TypeScript to ES5 compliant Java
 Also, we have watchify running as well. Watchify will watch all of the files we have bundled. If we make a change
 to any one of them, it will automatically re-bundle for you. Also, we're watching the bundle from a tool called browser-sync, so the changes will automatically be propagated to the browser. :D
 
+## Is this the best way to learn TypeScript?
+That is debatable. Microsoft Visual Studio offers the best experience. If you can get access to a
+Windows VM with latest Visual Studio, I would say learn on there. If not, this will allow you to
+write TypeScript code and compile it to run it in the browser.
+
+## How can I learn more about TypeScript?
+[official handbook](http://www.typescriptlang.org/Handbook)
+
 ## License
 MIT License
