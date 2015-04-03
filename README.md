@@ -5,18 +5,15 @@ a boilerplate repo to get up and running with TypeScript/Browserify on OS X
 
 ### Usage:
 ```bash
-npm install && npm start
+npm install -g gulp
+npm install
+tsd update -so
+npm start
 ```
 
 If all goes well, your browser will open to localhost:3000
 
-Open your console and you should see "hello from main!" (very exciting, I know :))
-
-It may complain it can't find a gulp reference.. in that case install it globally:
-
-```bash
-npm install -g gulp
-```
+Open your console and you should see some messages logged to console.
 
 ## How can I download the code?
 You can clone this repo using git. From you command line, enter the following:
@@ -38,9 +35,12 @@ Also, we have watchify running as well. Watchify will watch all of the files we 
 to any one of them, it will automatically re-bundle for you. Also, we're watching the bundle from a tool called browser-sync, so the changes will automatically be propagated to the browser. :D
 
 ## Is this the best way to learn TypeScript?
-That is debatable. Microsoft Visual Studio offers the best experience. If you can get access to a
-Windows VM with latest Visual Studio, I would say learn on there. If not, this will allow you to
-write TypeScript code and compile it to run it in the browser.
+If you're stuck outside of a Windows environment, I've found this setup to be most helpful
+when wanting to write some TypeScript. That being said, Windows Visual Studio still has the
+best support as of today. Some other IDE's are starting to offer some more support via plugins:
+
+[Eclipse](https://github.com/palantir/eclipse-typescript)
+[Sublime Text](https://github.com/Microsoft/ngconf2015demo/tree/master/sublimetext)
 
 ## How can I learn more about TypeScript?
 [official handbook](http://www.typescriptlang.org/Handbook)

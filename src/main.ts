@@ -1,17 +1,21 @@
-//import Helper = require('./components/helper');
+/// <reference path="../typings/node/node.d.ts" />
+import Helper = require('./components/helper');
 
 class Main {
 
-  name: string;
-  helper: any;
+  name;
+  helper;
 
-  constructor() {
-    this.name = 'OG';
+  constructor(name: string) {
+    this.name = name;
+    console.log(this.name)
 
-    //this.helper = new Helper();
-    console.log('hello from main!')
+    this.helper = new Helper();
+    this.helper.sayHello();
   }
 
 }
 
-var main = new Main();
+window.onload = () => {
+  var main = new Main('start me up');
+}

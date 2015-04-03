@@ -44,10 +44,9 @@ gulp.task('bundle-ts', function() {
   });
 
   bundler.add([
-    './src/main.ts',
-    './src/components/helper.ts'
+    './src/main.ts'
   ])
-  .plugin('tsify', { module: 'commonjs' });
+  .plugin('tsify');
 
   rebundle();
 
