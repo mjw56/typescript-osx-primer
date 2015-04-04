@@ -1,5 +1,3 @@
-import Helper = require('./helper');
-
 class Main {
 
   name;
@@ -8,9 +6,6 @@ class Main {
   constructor(name: string) {
     this.name = name;
     console.log(this.name)
-
-    this.helper = new Helper();
-    this.helper.sayHello();
   }
 
 }
