@@ -1,5 +1,4 @@
-/// <reference path="../typings/node/node.d.ts" />
-import Helper = require('./components/helper');
+import Helper = require('./helper');
 
 class Main {
 
@@ -16,6 +15,4 @@ class Main {
 
 }
 
-window.onload = () => {
-  var main = new Main('start me up');
-}
+export = Main;
