@@ -1,0 +1,16 @@
+h1 {
+  font-family: monospace;
+  color: #ff6600;
+}
+
+.hn-stories a {
+  font-family: monospace;
+  font-size: 20px;
+  color: dimgray;
+  line-height: 40px;
+}
+
+.hn-stories a:hover {
+  cursor: pointer;
+  color: blue;
+}
