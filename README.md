@@ -3,6 +3,8 @@ typescript-osx-primer
 
 a boilerplate repo to get up and running with TypeScript/Browserify on OS X
 
+![screenshot](/media/screenshot.png)
+
 ### Usage:
 ```bash
 npm install -g gulp

@@ -40,7 +40,7 @@ gulp.task('browserSync', function() {
      }
    },
    open: true,
-   files: ['dist/bundle.js', 'app.css']
+   files: ['dist/bundle.js', 'style/app.css']
  });
 });
 
