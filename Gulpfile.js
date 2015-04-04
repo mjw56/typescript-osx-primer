@@ -21,7 +21,7 @@ var reload = browserSync.reload;
 var config = {
   ts: [
     'src/components/main.ts',
-    'src/components/helper.ts'
+    'src/components/hn.ts'
   ],
   js: []
 }
@@ -33,10 +33,14 @@ gulp.task('browserSync', function() {
  browserSync({
    server: {
      baseDir: './',
-     index: 'index.html'
+     index: 'index.html',
+     middleware: function (req, res, next) {
+       res.setHeader('Access-Control-Allow-Origin', '*');
+       next();
+     }
    },
    open: true,
-   files: ['dist/bundle.js']
+   files: ['dist/bundle.js', 'app.css']
  });
 });
 
